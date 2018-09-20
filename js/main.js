@@ -34,15 +34,19 @@
       }
     }, duration)
   }
-  let code = `/*
+  let code = `
+/*
  * 首先，需要准备皮卡丘的皮
  */
+
 .preview{
   background: #FEE433;
 }
+
 /*
  * 接下来，画皮卡丘的鼻子
  */
+
 .nose{
   width: 0px;
   height: 0px;
@@ -55,6 +59,7 @@
   top: 28px;
   margin-left: -12px;
 }
+
 /*
  * 接下来，画皮卡丘的眼睛
  */
